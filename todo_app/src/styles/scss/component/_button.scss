@@ -1,15 +1,35 @@
 button{
-    div{
-        &.circle{
-            border-radius: $radius-circle;
-            background-color: $white;
-            width: $width-circle;
-            height: $height-circle;
-            @include flex;
+    width: 100%;
+    background: $purple;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    @include flex;
+
+    &#button-card-header{
+        margin-top: 15px;
+
+        div{
+            &.circle{
+                border-radius: $radius-circle;
+                background-color: $white;
+                width: $width-circle;
+                height: $height-circle;
+                @include flex;
+
+                p{
+                    color: $purple !important;
+                }
+            }
+            
+            p{
+                color: $purple;
+            }
         }
 
         p{
-            color: $purple;
+            color: $white !important;
+            padding: 0 10px;
         }
     }
 }
