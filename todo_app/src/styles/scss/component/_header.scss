@@ -1,0 +1,23 @@
+header{
+    background: url('../../static/img/bck-header.png');
+
+    h1, p{
+        color: $white;
+    }
+
+    h1{
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    div{
+        &.flex-container-header{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

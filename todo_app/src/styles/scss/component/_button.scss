@@ -1,0 +1,15 @@
+button{
+    div{
+        &.circle{
+            border-radius: $radius-circle;
+            background-color: $white;
+            width: $width-circle;
+            height: $height-circle;
+            @include flex;
+        }
+
+        p{
+            color: $purple;
+        }
+    }
+}
