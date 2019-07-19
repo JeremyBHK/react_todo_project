@@ -1,0 +1,13 @@
+article{
+    &.little-task{
+        width: 100px;
+        margin: 0 15px 30px 15px;
+    }
+
+    &.little-task{
+        div{
+            @include flex;
+            justify-content: space-between !important;
+        }
+    }
+}

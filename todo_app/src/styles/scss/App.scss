@@ -5,7 +5,9 @@
 
 @import 'mixin/flex';
 
+@import './home';
 @import 'component/header';
 @import 'component/cardHeader';
 @import 'component/button';
 @import 'component/task';
+@import 'component/littleTask';

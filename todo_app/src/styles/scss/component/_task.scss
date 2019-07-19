@@ -1,12 +1,12 @@
 article{
-    &#component-task{
+    &.component-task{
         flex-wrap: wrap;
         @include flex;
         justify-content: space-between;
         width: 60%;
         border: 2px solid #F9F9F9;
         border-radius: 5px;
-        padding: 15px 15px;
+        padding: 15px 20px;
         margin: auto;
         color: $marine;
 
@@ -30,6 +30,7 @@ article{
                     @include flex;
                     border-radius: 5px;
                     font-weight: 400;
+                    padding: 2px;
                 }
             }
 
@@ -42,6 +43,7 @@ article{
 
                 p{
                     font-size: 14px !important;
+                    margin: 0 !important;
                 }
             }
 
@@ -61,6 +63,7 @@ article{
 
                 p{
                     font-size: 10px;
+                    margin-right: 10px;
 
                     span{
                         font-size: 18px;
