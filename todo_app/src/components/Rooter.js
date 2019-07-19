@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Home';
 import Tasks from './tasks/Tasks';
+import Admin from './admin/Admin';
 
 class Rooter extends Component{
     render(){
@@ -9,6 +10,7 @@ class Rooter extends Component{
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/tasks" component={Tasks}/>
+                <Route path="/admin" component={Admin}/>
             </Switch>
         )
 
