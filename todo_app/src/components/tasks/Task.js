@@ -10,8 +10,8 @@ class Task extends Component{
                     <p className="price-task">7€</p>
                 </div>
                 <div>
-                    <p>15 juin <br/>12h30</p>
-                    <div>
+                    <p className="date-time">15 juin <br/>12h30</p>
+                    <div className="duration">
                         <img src={Pin} alt="Pin de localisation"/>
                         <p>À 5 minutes</p>
                     </div>

@@ -3,11 +3,13 @@ article{
         flex-wrap: wrap;
         @include flex;
         justify-content: space-between;
-        width: 70%;
+        width: 60%;
         border: 2px solid #F9F9F9;
         border-radius: 5px;
         padding: 15px 15px;
         margin: auto;
+        color: $marine;
+
         div{
             &.img-task{
                 position: relative;
@@ -21,7 +23,7 @@ article{
                     position: absolute;
                     top: -10px;
                     right: -15px;
-                    background: $purple;
+                    background: $green;
                     width: 34px;
                     height: 25px;
                     color: $white;
@@ -31,10 +33,39 @@ article{
                 }
             }
 
+            &.duration{
+                img{
+                    position: relative;
+                    top: -5px;
+                    margin-right: 5px;
+                }
+
+                p{
+                    font-size: 14px !important;
+                }
+            }
+
+            p{
+                &.date-time{
+                    font-size: 18px;
+                    text-align: right;
+                    margin-bottom: 40px;
+                }
+            }
+
             &:last-child{
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
+                margin-top: 15px;
+
+                p{
+                    font-size: 10px;
+
+                    span{
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }

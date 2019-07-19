@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'; 
+// import { Link } from 'react-router-dom';
 
 import Header from './header/Header';
-import Task from './tasks/Task';
+// import Task from './tasks/Task';
+import Swiper from './Swiper';
 
 class Home extends Component{
     render(){
@@ -11,7 +12,8 @@ class Home extends Component{
                 <Header name="Bonjour Benjamin" p="Voici toutes les tâches que" p2="vous pouvez réaliser"/>
                 <h2>Les tâches urgentes</h2>
                 <section>
-                    <Task />
+                    {/* <Task /> */}
+                    <Swiper />
                 </section>
                 {/* <Link to="/tasks" title="Lien vers la page Tasks">
                     Lien vers la page des tâches
@@ -21,4 +23,4 @@ class Home extends Component{
     }
 }
 
-export default Home 
+export default Home
