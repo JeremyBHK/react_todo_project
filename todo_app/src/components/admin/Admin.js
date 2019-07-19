@@ -1,15 +1,10 @@
-import React from 'react'
-import { Admin, Resource } from 'react-admin'
-import { PostList, PostEdit, PostCreate } from './Posts'
-import { UserList } from './Users'
-import jsonServerProvider from 'ra-data-json-server'
+import React, { Component } from 'react'
+import { HydraAdmin } from '@api-platform/admin'
 
-const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
-const App = () => (
-  <Admin dataProvider={dataProvider}>
-    <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} />
-    <Resource name="users" list={UserList} />
-  </Admin>
-);
+class App extends Component {
+  render() {
+    return <HydraAdmin entrypoint="http://127.0.0.1:8001/api/"/> // Replace with your own API entrypoint
+  }
+}
 
-export default App;
+export default App
