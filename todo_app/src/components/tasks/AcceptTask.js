@@ -2,6 +2,7 @@ import React from 'react'
 import LayoutHeader from '../header/LayoutHeader'
 import Timeline from '../../static/img/timeline.svg'
 import Swiper from '../Swiper'
+import MicroTask from './MicroTask'
 
 const AcceptTask = () => {
   return(
@@ -40,7 +41,11 @@ const AcceptTask = () => {
         </div>
       </section>
       <section>
-        <Swiper />
+        <Swiper
+          task={<MicroTask name="Distances du parcours" info="2,5 km" />}
+
+          
+         />
       </section>
     </React.Fragment>
 
