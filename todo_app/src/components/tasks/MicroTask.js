@@ -9,5 +9,5 @@ const MicroTask = ({name, info}) => {
       </article>
     </React.Fragment>
   )
-}
+} 
 export default MicroTask

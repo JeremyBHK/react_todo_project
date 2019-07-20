@@ -43,8 +43,6 @@ const AcceptTask = () => {
       <section>
         <Swiper
           task={<MicroTask name="Distances du parcours" info="2,5 km" />}
-
-          
          />
       </section>
     </React.Fragment>
