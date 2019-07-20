@@ -1,0 +1,8 @@
+section{
+    &#all-tasks{
+        div{
+            @include flex;
+            flex-wrap: wrap;
+        }
+    }
+}

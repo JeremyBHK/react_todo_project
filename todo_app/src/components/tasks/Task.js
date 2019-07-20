@@ -5,7 +5,7 @@ import Pin from '../../static/img/Subtract.svg';
 class Task extends Component{
     render(){
         return(
-            <article id="component-task">
+            <article className="component-task">
                 <div className="img-task">
                     <p className="price-task">7€</p>
                 </div>
