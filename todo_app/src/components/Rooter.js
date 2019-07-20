@@ -11,6 +11,7 @@ class Rooter extends Component{
                 <Route exact path="/" component={Home}/>
                 <Route path="/tasks" component={Tasks}/>
                 <Route path="/admin" component={Admin}/>
+                <Route path="/accept-task" component={Admin}/>
             </Switch>
         )
 

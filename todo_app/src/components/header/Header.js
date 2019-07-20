@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import LogoUser from '../../static/img/profil-svg.svg';
-import CardHeader from './Card-header';
+import React, { Component } from 'react'
+import LogoUser from '../../static/img/profil-svg.svg'
+import CardHeader from './Card-header'
 
 class Header extends Component {
     render(){

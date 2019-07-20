@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 
 import Header from './header/Header';
-import Task from './tasks/Task';
 import LittleTask from './tasks/LittleTask';
 import Swiper from './Swiper';
 
