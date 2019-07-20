@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header/Header';
 import LittleTask from './tasks/LittleTask';
+import Task from './tasks/Task';
 import Swiper from './Swiper';
 import Menu from './Menu';
 
@@ -16,7 +17,11 @@ class Home extends Component{
                 <Header name="Bonjour Benjamin" p="Voici toutes les tâches que" p2="vous pouvez réaliser"/>
                 <h2>Les tâches urgentes</h2>
                 <section>
-                    <Swiper />
+                    <Swiper
+                        task={<Task />}
+                    >
+                        {/* <Task /> */}
+                    </Swiper>
                 </section>
                 <h2>Toutes les tâches</h2>
                 <section id="all-tasks">
