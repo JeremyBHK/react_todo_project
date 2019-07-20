@@ -1,5 +1,7 @@
 section{
     &#all-tasks{
+        margin-bottom: 100px;
+        
         div{
             @include flex;
             flex-wrap: wrap;

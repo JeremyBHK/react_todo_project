@@ -1,0 +1,11 @@
+section{
+    &#urg-tasks{
+        @include flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+
+        article{
+            margin-bottom: 30px;
+        }
+    }
+}

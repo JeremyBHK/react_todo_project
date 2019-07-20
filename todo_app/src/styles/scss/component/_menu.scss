@@ -1,0 +1,41 @@
+nav{
+    @include flex;
+    height: 87px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    background: url('../../static/img/menu-bck.svg');
+
+    img{
+        margin-top: 13px;
+
+        &#switchBtn{
+            position: absolute;
+            margin-left: 50%;
+            left: -29.5px;
+            bottom: 40px;
+        }
+    }
+
+    div{
+        @include flex;
+        margin: 0px 8px;
+
+        &.fixWidth{
+            max-width: 45px;
+
+            &.margeR15{
+                margin-right: 15px;
+            }
+        }
+
+        &.flex-column{
+            flex-direction: column;
+            
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}

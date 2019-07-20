@@ -7,7 +7,12 @@
 @import 'mixin/flex';
 
 @import './home';
+@import './recurTasks';
+@import './prevTasks';
+@import './urgTasks';
+
 @import 'component/header';
+@import 'component/menu';
 @import 'component/cardHeader';
 @import 'component/button';
 @import 'component/task';
