@@ -4,11 +4,10 @@ import LittleTask from './tasks/LittleTask';
 import Task from './tasks/Task';
 import Swiper from './Swiper';
 import Menu from './Menu';
-
-import TaskIcon from '../static/img/Vector.svg';
-import Urgentes from '../static/img/urgent-icon-black.svg';
-import Recurrentes from '../static/img/recurrentes.svg';
-import Prev from '../static/img/prev.svg';
+import TaskIcon from '../static/img/Vector.svg'
+import Urgentes from '../static/img/urgent-icon-black.svg'
+import Recurrentes from '../static/img/recurrentes.svg'
+import Prev from '../static/img/prev.svg'
 
 class Home extends Component{
     render(){
