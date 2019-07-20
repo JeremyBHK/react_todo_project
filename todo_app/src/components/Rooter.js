@@ -6,7 +6,7 @@ import Admin from './admin/Admin'
 import UrgentTask from './tasks/UrgentTask'
 import RecurTask from './tasks/RecurTask'
 import PrevTask from './tasks/PrevTask'
-import LayoutHeader from '../components/header/LayoutHeader'
+import AcceptTask from '../components/tasks/AcceptTask'
 
 class Rooter extends Component{
     render(){
@@ -15,7 +15,7 @@ class Rooter extends Component{
                 <Route exact path="/" component={Home}/>
                 <Route path="/tasks" component={Tasks}/>
                 <Route path="/admin" component={Admin}/>
-                <Route path="/accept-task" component={LayoutHeader}/>
+                <Route path="/accept-task" component={AcceptTask}/>
                 <Route path="/urgent-tasks" component={UrgentTask} />
                 <Route path="/recurrent-tasks" component={RecurTask} />
                 <Route path="/forecast-tasks" component={PrevTask} />

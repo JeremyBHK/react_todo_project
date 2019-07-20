@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Header from './header/Header';
-import LittleTask from './tasks/LittleTask';
-import Swiper from './Swiper';
-import Menu from './Menu';
+import React, { Component } from 'react'
+import Header from './header/Header'
+import LittleTask from './tasks/LittleTask'
+import Swiper from './Swiper'
+import Menu from './Menu'
 
-import TaskIcon from '../static/img/Vector.svg';
-import Urgentes from '../static/img/urgent-icon-black.svg';
-import Recurrentes from '../static/img/recurrentes.svg';
-import Prev from '../static/img/prev.svg';
+import TaskIcon from '../static/img/Vector.svg'
+import Urgentes from '../static/img/urgent-icon-black.svg'
+import Recurrentes from '../static/img/recurrentes.svg'
+import Prev from '../static/img/prev.svg'
 
 class Home extends Component{
     render(){
