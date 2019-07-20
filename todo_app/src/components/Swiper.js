@@ -13,8 +13,8 @@ const Swiper = (props) => {
         // ref={el => (reactSwipeEl = el)}
       >
         <div>{props.task}</div>
-        <div>{props.task}</div>
-        <div>{props.task}</div>
+        <div>{props.task1}</div>
+        <div>{props.task2}</div>
       </ReactSwipe>
     </div>
   );

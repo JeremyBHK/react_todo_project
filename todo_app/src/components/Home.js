@@ -18,6 +18,8 @@ class Home extends Component{
                 <section>
                     <Swiper
                         task={<Task />}
+                        task1={<Task />}
+                        task2={<Task />}
                     >
                     </Swiper>
                 </section>
