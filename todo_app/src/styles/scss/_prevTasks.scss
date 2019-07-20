@@ -1,0 +1,7 @@
+section{
+    &#prev-tasks{
+        @include flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+}

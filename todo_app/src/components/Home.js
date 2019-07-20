@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-
 import Header from './header/Header';
 import LittleTask from './tasks/LittleTask';
 import Swiper from './Swiper';
+import Menu from './Menu';
+
+import TaskIcon from '../static/img/Vector.svg';
+import Urgentes from '../static/img/urgent-icon-black.svg';
+import Recurrentes from '../static/img/recurrentes.svg';
+import Prev from '../static/img/prev.svg';
 
 class Home extends Component{
     render(){
@@ -14,9 +18,6 @@ class Home extends Component{
                 <section>
                     <Swiper />
                 </section>
-                {/* <Link to="/tasks" title="Lien vers la page Tasks">
-                    Lien vers la page des tâches
-                </Link> */}
                 <h2>Toutes les tâches</h2>
                 <section id="all-tasks">
                     <div>
@@ -28,6 +29,7 @@ class Home extends Component{
                         <LittleTask price="7€" duration="5min"/>
                     </div>
                 </section>
+                <Menu home={TaskIcon} urg={Urgentes} rec={Recurrentes} prev={Prev}/>
             </React.Fragment>
         )
     }
