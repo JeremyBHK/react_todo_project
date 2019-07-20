@@ -18,8 +18,9 @@ class Home extends Component{
                 <section>
                     <Swiper
                         task={<Task />}
+                        task1={<Task />}
+                        task2={<Task />}
                     >
-                        {/* <Task /> */}
                     </Swiper>
                 </section>
                 <h2>Toutes les tâches</h2>
