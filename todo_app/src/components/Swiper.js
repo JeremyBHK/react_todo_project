@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactSwipe from 'react-swipe';
-import Task from './tasks/Task';
+// import Task from './tasks/Task';
 
-const Swiper = () => {
+const Swiper = (props) => {
 //   let reactSwipeEl;
 //
   return (
@@ -12,9 +12,9 @@ const Swiper = () => {
         swipeOptions={{ continuous: false }}
         // ref={el => (reactSwipeEl = el)}
       >
-        <div><Task /></div>
-        <div><Task /></div>
-        <div><Task /></div>
+        <div>{props.task}</div>
+        <div>{props.task}</div>
+        <div>{props.task}</div>
       </ReactSwipe>
     </div>
   );

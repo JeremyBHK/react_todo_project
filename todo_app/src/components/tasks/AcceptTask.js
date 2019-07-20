@@ -1,7 +1,7 @@
 import React from 'react'
 import LayoutHeader from '../header/LayoutHeader'
 import Timeline from '../../static/img/timeline.svg'
-import Swiper from './Swiper'
+import Swiper from '../Swiper'
 
 const AcceptTask = () => {
   return(
