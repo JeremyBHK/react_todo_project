@@ -20,7 +20,6 @@ class Home extends Component{
                     <Swiper
                         task={<Task />}
                     >
-                        {/* <Task /> */}
                     </Swiper>
                 </section>
                 <h2>Toutes les tâches</h2>
