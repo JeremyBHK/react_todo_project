@@ -3,6 +3,13 @@ import MenuAddTask from '../MenuAddTasK'
 import AddForm from '../form/AddForm'
 
 class AddTask extends Component{
+    async componentWillMount() {
+        const apiUrl = "http://127.0.0.1:8000/api/users"
+        const req = await fetch(apiUrl)
+        const users = await req.json()
+       console.log(users) 
+      }
+
     render(){
         return(
             <section className="add-task">

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactSwipe from 'react-swipe';
-// import Task from './tasks/Task';
+import { Link } from 'react-router-dom'
 
 const Swiper = (props) => {
 //   let reactSwipeEl;
@@ -12,9 +12,10 @@ const Swiper = (props) => {
         swipeOptions={{ continuous: false }}
         // ref={el => (reactSwipeEl = el)}
       >
-        <div>{props.task}</div>
-        <div>{props.task1}</div>
-        <div>{props.task2}</div>
+        <div><Link to="/accept-task" title="Lien vers la page task" id="link-switch">{props.task}</Link></div>
+        <div><Link to="/accept-task" title="Lien vers la page task" id="link-switch">{props.task}</Link></div>
+        <div><Link to="/accept-task" title="Lien vers la page task" id="link-switch">{props.task}</Link></div>
+        
       </ReactSwipe>
     </div>
   );

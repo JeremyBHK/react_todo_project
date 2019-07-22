@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactSwipe from 'react-swipe';
-// import Task from './tasks/Task';
 
 const Swiper = (props) => {
 //   let reactSwipeEl;

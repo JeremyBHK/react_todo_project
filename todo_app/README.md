@@ -1,7 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Install SASS
-npm install node-sass --save
+## Install APP
+# 1- npm install 
+# 2- npm install react swipe-js-iso react-swipe --save ( pour le swiper)
+# 3- npm install node-sass --save
+# 4- npm install react-router-dom ( pour le routing)
+
+Le component Admin.js sert de liaison pour la partie Admin de l'App. Le commenter si vous voulez accéder sans l'Api
+
+### README REACT 
 
 ## Available Scripts
 
