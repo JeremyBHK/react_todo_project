@@ -1,8 +1,9 @@
 import React from 'react'
 import LayoutHeader from '../header/LayoutHeader'
 import Timeline from '../../static/img/timeline.svg'
-import Swiper from '../Swiper'
+import Swiper from '../Swiper-2'
 import MicroTask from './MicroTask'
+import NavTask from './NavTask'
 
 const AcceptTask = () => {
   return(
@@ -47,8 +48,8 @@ const AcceptTask = () => {
           task2={<MicroTask name="Rémunération" info="4.20€" />}
          />
       </section>
+      <NavTask></NavTask>
     </React.Fragment>
-
   )
 }
 
