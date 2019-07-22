@@ -41,7 +41,7 @@ const AcceptTask = () => {
           </p>
         </div>
       </section>
-      <section>
+      <section class="livraisonTarif">
         <Swiper
           task={<MicroTask name="Distances du parcours" info="2,5 km" />}
           task1={<MicroTask name="Temps de la mission estimée" info="40 min" />}
