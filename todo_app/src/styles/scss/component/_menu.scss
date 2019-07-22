@@ -7,14 +7,18 @@ nav{
     justify-content: space-between;
     background: url('../../static/img/menu-bck.svg');
 
+    #link-switch{
+        position: absolute;
+        margin-left: 50%;
+        left: -29.5px;
+    }
+
     img{
         margin-top: 13px;
 
         &#switchBtn{
             position: absolute;
-            margin-left: 50%;
-            left: -29.5px;
-            bottom: 40px;
+            bottom: -5px;
         }
     }
 

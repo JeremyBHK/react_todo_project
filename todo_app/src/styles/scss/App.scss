@@ -10,6 +10,7 @@
 @import './recurTasks';
 @import './prevTasks';
 @import './urgTasks';
+@import './addTask';
 
 @import 'component/header';
 @import 'component/layoutHeader';
@@ -19,3 +20,5 @@
 @import 'component/task';
 @import 'component/littleTask';
 @import 'component/deliveryInfo';
+@import 'component/validationBtn';
+@import 'component/form';

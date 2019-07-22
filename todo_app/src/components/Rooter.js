@@ -7,6 +7,7 @@ import UrgentTask from './tasks/UrgentTask'
 import RecurTask from './tasks/RecurTask'
 import PrevTask from './tasks/PrevTask'
 import AcceptTask from '../components/tasks/AcceptTask'
+import AddTask from '../components/tasks/AddTask'
 
 class Rooter extends Component{
     render(){
@@ -19,6 +20,7 @@ class Rooter extends Component{
                 <Route path="/urgent-tasks" component={UrgentTask} />
                 <Route path="/recurrent-tasks" component={RecurTask} />
                 <Route path="/forecast-tasks" component={PrevTask} />
+                <Route path="/add-tasks" component={AddTask} />
             </Switch>
         )
 
